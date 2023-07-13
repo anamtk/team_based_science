@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "INF 690: Team-based Interdisciplinary Research",
+    "section": "",
+    "text": "Date: Fall 2023, Tuesdays/Thursdays 11:10-12:15 AM\nRoom: SICCS 223\nInstructors: Drs. Katharyn Duffy & Ana Miller-ter Kuile\n\nWelcome!\nIn this course, you will learn team-science skills for engaging in collaborative research, and for being a productive member of high-performing teams. You will work in small teams (3-4 members) to develop an interdisciplinary research product (proposal, manuscript, or code package) with an emphasis on applying informatics tools to address a biological, ecological, or environmental-motivated problem. You will learn and employ team-science approaches to developing this proposal and to conducting preliminary research that aligns with the proposal. You will present as a team on the proposed project, approaches, and initial results.\n\n\nInstructors\n\nDr. Katharyn Duffy\n\nEmail:\n\n\nOffice Hours:\n\n\n\nDr. Ana Miller-ter Kuile\n\nEmail: ana.miller-ter-kuile@nau.edu\n\n\nOffice Hours:"
+  },
+  {
+    "objectID": "part_2_eda.html",
+    "href": "part_2_eda.html",
+    "title": "Part I",
+    "section": "",
+    "text": "Page with R code\n\n\n\nThis page contains an example template for a lab session, where R code and results are displayed here.\nYou can find more information on how to include code in Quarto website here.\nYou can experiment with code-fold and code-tools in the yaml header above to change how the code cells look like."
+  },
+  {
+    "objectID": "part_2_eda.html#a-cancer-modeling-example",
+    "href": "part_2_eda.html#a-cancer-modeling-example",
+    "title": "Part I",
+    "section": "A Cancer Modeling Example",
+    "text": "A Cancer Modeling Example\nExercise on analysis of miRNA, mRNA and protein data from the paper Aure et al, Integrated analysis reveals microRNA networks coordinately expressed with key proteins in breast cancer, Genome Medicine, 2015.\nPlease run the code provided to replicate some of the analyses. Make sure you can explain what all the analysis steps do and that you understand all the results.\nIn addition, there are some extra tasks (Task 1), where no R code is provided. Please do these tasks when you have time available at the end of the lab.\n\nLoad the data\nRead the data, and convert to matrix format.\n\nmrna <- read.table(\"data/data_example.txt\", header=T, sep=\"\\t\", dec=\".\")\n\n# Convert to matrix format\n\nmrna <- as.matrix(mrna)\n\nPrint the data\n\nmrna[1:4, 1:4]\n\n      OSL2R.3002T4 OSL2R.3005T1 OSL2R.3013T1 OSL2R.3030T2\nACACA      1.60034     -0.49087     -0.26553     -0.27857\nANXA1     -2.42501     -0.05416     -0.46478     -2.18393\nAR         0.39615     -0.43348     -0.10232      0.58299\nBAK1       0.78627      0.39897      0.22598     -1.31202\n\n\nVisualise the overall distribution of expression levels by histogram\n\nhist(mrna, nclass=40, xlim=c(-5,5), col=\"lightblue\")\n\n\n\n\n\n\n\n\n\n\nTask 1\n\n\n\nThis is a callout-note, and it can be quite useful for exercises. You can find more about callout here.\nExample: Extend the above analysis to cover all genes."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Learning Objectives\nAt the end of this course, students will have:\n\nLearned effective team-science skills and actively applied these skills to a collaborative project.\nGained experience in individual and team project management.\nAcquired skills in developing and implementing team policies, procedures, and expectations.\nAssembled into teams to collaborate on a research proposal and preliminary analysis.\nIdentified a research question/problem that all members of the team can participate in.\nIdentified appropriate methods and approaches to tackle the proposed research project.\nGained experience writing a concise and compelling research proposal as a team.\nDelivered a collaborative presentation on their research ideas and results.\n\n\n\nPre-requisites\n\nAt least one year completed of graduate studies\nPermission from instructor\n\n\n\nContact\nInstructor A: contact\nInstructor B: contact\nInstructor C: contact"
+  },
+  {
+    "objectID": "part_1_prep.html",
+    "href": "part_1_prep.html",
+    "title": "Preparation",
+    "section": "",
+    "text": "Page without code\n\n\n\nThis page contains an example for some structured preparation information for a workshop. No code is executed here.\nHere are some preparation information for the participants."
+  },
+  {
+    "objectID": "part_1_prep.html#software",
+    "href": "part_1_prep.html#software",
+    "title": "Preparation",
+    "section": "Software",
+    "text": "Software\nIn this workshop we will be using R. You can either\n\nhave R and Rstudio installed on your laptop\nor, use Posit cloud (formerly Rstudio Cloud).\n\nPosit cloud is free of charge for personal users, yet you need to sign up for a new user account and have internet connection.\nThe R package we are using is glmnet."
+  },
+  {
+    "objectID": "part_1_prep.html#data",
+    "href": "part_1_prep.html#data",
+    "title": "Preparation",
+    "section": "Data",
+    "text": "Data\nThe datasets we use can be found here (insert link)."
+  },
+  {
+    "objectID": "part_1_prep.html#code",
+    "href": "part_1_prep.html#code",
+    "title": "Preparation",
+    "section": "Code",
+    "text": "Code\nThe R scripts used in part 1 and part 2 can be found here (insert link)."
+  },
+  {
+    "objectID": "part_1_prep.html#resources",
+    "href": "part_1_prep.html#resources",
+    "title": "Preparation",
+    "section": "Resources",
+    "text": "Resources\nLecture notes (insert link)\nLab notes (insert link)"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Coming soon"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule\n\n\n\n\n\n\nTabular schedule\n\n\n\nIt can be useful to include a tabular schedule with links.\n\n\n\n\n\nTime\nTopic\nPresenter\n\n\n\n\n9:00 - 10:30\nSession 1: Preparation\nInstructor A\n\n\n10:45 - 12:00\nSession 2: Exploratory Analysis\nInstructor B, C"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Coming soon"
+  }
+]

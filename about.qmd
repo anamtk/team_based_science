@@ -1,0 +1,41 @@
+---
+title: "About"
+format: 
+  html:
+    code-fold: false
+    code-tools: false
+editor: visual
+---
+
+#### Learning Objectives
+
+At the end of this course, students will have:
+
+-   Learned effective team-science skills and actively applied these skills to a collaborative project.
+
+-   Gained experience in individual and team project management.
+
+-   Acquired skills in developing and implementing team policies, procedures, and expectations.
+
+-   Assembled into teams to collaborate on a research proposal and preliminary analysis.
+
+-   Identified a research question/problem that all members of the team can participate in.
+
+-   Identified appropriate methods and approaches to tackle the proposed research project.
+
+-   Gained experience writing a concise and compelling research proposal as a team.
+
+-   Delivered a collaborative presentation on their research ideas and results.
+
+#### Pre-requisites
+
+-   At least one year completed of graduate studies
+-   Permission from instructor
+
+#### Contact
+
+Instructor A: contact
+
+Instructor B: contact
+
+Instructor C: contact

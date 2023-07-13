@@ -1,0 +1,31 @@
+---
+title: "INF 690: Team-based Interdisciplinary Research"
+---
+
+Date: **Fall 2023, Tuesdays/Thursdays 11:10-12:15 AM**
+
+Room: **SICCS 223**
+
+Instructors: Drs. Katharyn Duffy & Ana Miller-ter Kuile
+
+# Welcome!
+
+In this course, you will learn team-science skills for engaging in collaborative research, and for being a productive member of high-performing teams. You will work in small teams (3-4 members) to develop an interdisciplinary research product (proposal, manuscript, or code package) with an emphasis on applying informatics tools to address a biological, ecological, or environmental-motivated problem. You will learn and employ team-science approaches to developing this proposal and to conducting preliminary research that aligns with the proposal. You will present as a team on the proposed project, approaches, and initial results.
+
+# Instructors
+
+#### Dr. Katharyn Duffy
+
+##### Email:
+
+##### Office Hours:
+
+#### Dr. Ana Miller-ter Kuile
+
+##### Email: ana.miller-ter-kuile\@nau.edu
+
+##### Office Hours:
+
+\
+
+# 

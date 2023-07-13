@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "INF 690: Team-based Research"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: schedule.qmd
+        text: Schedule
+      - href: resources.qmd
+        text: Resources
+    right:
+      - icon: github
+        href: https://github.com
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - part_1_prep.qmd
+      - part_2_eda.qmd
+  page-navigation: true
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+editor: visual
+
