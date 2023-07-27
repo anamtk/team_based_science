@@ -1,5 +1,48 @@
 ---
 title: "Syllabus"
+engine: knitr
+syllabus:
+  pdf: "test.pdf"
 ---
 
-Coming soon
+```{r}
+#| echo: false
+
+#got info on embedding PDFs here:
+#https://github.com/andrewheiss/ath-quarto/blob/main/cv/index.qmd
+```
+
+
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$syllabus$pdf`" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download Syllabus
+  </a>
+</p>
+
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$syllabus$pdf`" style="border: 0.5px"></iframe>
+</div>
+```
+
+

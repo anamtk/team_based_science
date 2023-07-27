@@ -8,23 +8,23 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - href: syllabus.qmd
         text: Syllabus
       - href: schedule.qmd
         text: Schedule
       - href: resources.qmd
-        text: Resources
+        text: Resources & Assignments
+      - href: about.qmd
+        text: About the Instructors
     right:
       - icon: github
-        href: https://github.com
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - part_1_prep.qmd
-      - part_2_eda.qmd
+        href: https://github.com/anamtk/team_based_science
+  # sidebar:
+  #   style: "docked"
+  #   search: true
+  #   contents:
+  #     - part_1_prep.qmd
+  #     - part_2_eda.qmd
   page-navigation: true
 
 format:

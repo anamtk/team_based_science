@@ -7,35 +7,12 @@ format:
 editor: visual
 ---
 
-#### Learning Objectives
+### Dr. Katharyn Duffy
 
-At the end of this course, students will have:
+Bio
 
--   Learned effective team-science skills and actively applied these skills to a collaborative project.
+![](ana.png){width=30%}
 
--   Gained experience in individual and team project management.
+### Dr. Ana Miller-ter Kuile
 
--   Acquired skills in developing and implementing team policies, procedures, and expectations.
-
--   Assembled into teams to collaborate on a research proposal and preliminary analysis.
-
--   Identified a research question/problem that all members of the team can participate in.
-
--   Identified appropriate methods and approaches to tackle the proposed research project.
-
--   Gained experience writing a concise and compelling research proposal as a team.
-
--   Delivered a collaborative presentation on their research ideas and results.
-
-#### Pre-requisites
-
--   At least one year completed of graduate studies
--   Permission from instructor
-
-#### Contact
-
-Instructor A: contact
-
-Instructor B: contact
-
-Instructor C: contact
+Ana is a Postdoctoral Scholar in SICCS working with Dr. Kiona Ogle. She received her Ph.D. in Ecology from UC Santa Barbara and her B.S. in Earth Systems- Biosphere Track from Stanford University. Her general research interests include modeling and understanding how biological communities are impacted and respond to anthropogenic change, including species introductions and losses, invasive species, habitat change, climate change, and restoration efforts aimed at reversing or directing these changes. Ana has a background in community ecology and combines field, laboratory, and computational approaches in her work. She is also a Software Carpentries instructor and has training and experience with equitable STEM and data science education through an NSF-AGEP Hispanic Serving Institutions Teaching Fellowship and the Environmental Data Science Inclusion Network. 
