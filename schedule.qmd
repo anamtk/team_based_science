@@ -1,16 +1,48 @@
 ---
 title: "Schedule"
+engine: knitr
+schedule:
+  pdf: "schedule.pdf"
 ---
 
-# Schedule
 
-::: callout-tip
-## Tabular schedule
+```{r}
+#| echo: false
 
-It can be useful to include a tabular schedule with links.
-:::
+#got info on embedding PDFs here:
+#https://github.com/andrewheiss/ath-quarto/blob/main/cv/index.qmd
+```
 
-|     Time      |                       Topic                       |    Presenter    |
-|:-------------:|:-------------------------------------------------:|:---------------:|
-| 9:00 - 10:30  |     [Session 1: Preparation](part_1_prep.qmd)     |  Instructor A   |
-| 10:45 - 12:00 | [Session 2: Exploratory Analysis](part_2_eda.qmd) | Instructor B, C |
+
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$schedule$pdf`" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download Schedule
+  </a>
+</p>
+
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$schedule$pdf`" style="border: 0.5px"></iframe>
+</div>
+```
+
