@@ -4,7 +4,7 @@ title: "Resources"
 
 ## Required Textbooks
 
-#### [Collaboration and Team Science: A Field Guide](\pdfs\TeamScienceFieldGuide.pdf){target="_blank"} ("Team Science Field Guide" in weekly readings)
+#### [Collaboration and Team Science: A Field Guide](/pdfs/TeamScienceFieldGuide.pdf){target="_blank"} ("Team Science Field Guide" in weekly readings)
 
 #### Dare to Lead (hard copy provided to all students; "DtL" in weekly readings)
 
