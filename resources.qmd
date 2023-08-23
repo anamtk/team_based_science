@@ -26,6 +26,7 @@ tibble(
   mutate(title = map(title, gt::html)) %>%
   gt() %>%
   tab_options(table.font.size = 30,
+              table.font.weight = 'lighter',
               column_labels.hidden = TRUE,
               table.align='left',
               table.border.top.color='white',
