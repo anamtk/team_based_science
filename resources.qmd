@@ -2,4 +2,63 @@
 title: "Resources"
 ---
 
-Coming soon
+## Required Textbooks
+
+#### [Collaboration and Team Science: A Field Guide](\pdfs\TeamScienceFieldGuide.pdf){target="_blank"} ("Team Science Field Guide" in weekly readings)
+
+#### Dare to Lead (hard copy provided to all students; "DtL" in weekly readings)
+
+#### [Dare to Lead Workbook](\pdfs\DTLWorkbook.pdf){target="_blank"} ("DtL Workbook" in weekly assignments)
+
+## Weekly Reading and Assignments
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+package.list <- c('gt', 'tidyverse')
+
+## Installing them if they aren't already on the computer
+new.packages <- package.list[!(package.list %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
+## And loading them
+for(i in package.list){library(i, character.only = T)}
+
+
+tibble(
+  Week = c("1", "",
+           "2", "",
+           "3", ""),
+  Day = c("8/29", "8/31",
+          "9/5", "9/7",
+          "9/12", "9/14"),
+  Reading = c("<a href = '/pdfs/CheruvelilSoranno2018.pdf'>Cheruvelil & Soranno 2018</a>_DtL: Intro and Part 1, Section 1_(pages 1-43)",
+              "",
+              "Team Science Field Guide: pages iii-3_ <a href = '/pdfs/Cheruvelil2014.pdf'>Cheruvelil et al. 2014</a>",
+              "",
+              "DtL: Part 1, Sections 2-3_(pages 44-177)",
+              "Team Science Field Guide: pages 5-19"),
+  Assignment = c("DtL Workbook:_Section 1, Exercise 1_Section 1, Exercise 2", 
+                 "Elevator Pitch",
+                 "",
+                 "True Colors Assessment",
+                 'DtL Workbook:_Section 2, Exercise 1_Section 2, Exercise 4',
+                 '<a href = "https://docs.google.com/forms/d/e/1FAIpQLScY8EtcrPqe0WgVPFOl-ONgyIhULFC9VaxqiGiAmjhNvtzaXA/viewform">Myers Briggs Assessment</a>')
+) %>%
+  mutate(Reading = str_replace_all(Reading, "_", "<br>"),
+         Assignment = str_replace_all(Assignment, "_", "<br>")) %>% 
+  mutate(Reading = map(Reading, gt::html),
+         Assignment = map(Assignment, gt::html)) %>%
+  gt() %>%
+  tab_options(table.font.size = 20,
+              column_labels.font.weight = 'bold',
+              column_labels.font.size = 20) %>%
+  opt_horizontal_padding(scale = 3) %>% 
+  cols_align(align = c("left"),
+  columns = everything() )%>%
+  fmt_markdown(columns = TRUE)
+  
+
+```
