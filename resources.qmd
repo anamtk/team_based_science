@@ -24,13 +24,13 @@ tibble(
             "<a href = 'pdfs/DTLWorkbook.pdf'>Dare to Lead Workbook</a>")
 ) %>%
   mutate(title = map(title, gt::html)) %>%
-  gt() %>%
+  gt()  %>%
   tab_options(table.font.size = 30,
               table.font.weight = 'lighter',
               column_labels.hidden = TRUE,
               table.align='left',
-              table.border.top.color='white',
-              table.border.bottom.color = 'white') %>%
+              table.border.top.style = "hidden",
+              table.border.bottom.style = "hidden") %>%
   cols_align(align = c("left"),
   columns = everything()) %>%
    tab_style(
