@@ -2,7 +2,7 @@
 title: "Syllabus"
 engine: knitr
 syllabus:
-  pdf: "test.pdf"
+  pdf: "syllabus.pdf"
 ---
 
 ```{r}
@@ -11,7 +11,6 @@ syllabus:
 #got info on embedding PDFs here:
 #https://github.com/andrewheiss/ath-quarto/blob/main/cv/index.qmd
 ```
-
 
 ```{css echo=FALSE}
 .embed-container {
@@ -44,5 +43,3 @@ syllabus:
   <iframe src="`r rmarkdown::metadata$syllabus$pdf`" style="border: 0.5px"></iframe>
 </div>
 ```
-
-
