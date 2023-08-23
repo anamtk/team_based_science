@@ -7,16 +7,13 @@ format:
 editor: visual
 ---
 
-
-![](kat.jpeg){width=30%}
+![](kat.jpeg){width="30%"}
 
 ### Dr. Katharyn Duffy
 
-Katharyn is the Director of R&D Science Operations at [Vibrant Planet](https://www.vibrantplanet.net/) and adjunct faculty in the School of Informatics, Computing & Cyber Systems at Northern Arizona University.  Dr. Duffy works at the intersection of forestry, wildfire, and EcoInformatics - ecology and ‘big data’. She co-authored the first wildfire-focused forest carbon methodology, and continues to innovate data-driven methods to support natural climate solutions. Katharyn’s focus at Vibrant Planet includes building data and interfaces to support monitoring, reporting, and forecasting the ecosystem benefits of sustainable forest management. Katharyn’s broader work also includes developing and supporting courses and open-source textbooks on Interdisciplinary Team-Based Science and Ecological Informatics using Open Research Infrastructures and their Data to support open, reproducible, and inclusive science.
+Katharyn is the Director of R&D Science Operations at [Vibrant Planet](https://www.vibrantplanet.net/) and adjunct faculty in the School of Informatics, Computing & Cyber Systems at Northern Arizona University. Dr. Duffy works at the intersection of forestry, wildfire, and EcoInformatics - ecology and 'big data'. She co-authored the first wildfire-focused forest carbon methodology, and continues to innovate data-driven methods to support natural climate solutions. Katharyn's focus at Vibrant Planet includes building data and interfaces to support monitoring, reporting, and forecasting the ecosystem benefits of sustainable forest management. Katharyn's broader work also includes developing and supporting courses and open-source textbooks on Interdisciplinary Team-Based Science and Ecological Informatics using Open Research Infrastructures and their Data to support open, reproducible, and inclusive science.
 
-
-
-![](ana.png){width=30%}
+![](ana.png){width="30%"}
 
 ### Dr. Ana Miller-ter Kuile
 
