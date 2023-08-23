@@ -4,11 +4,11 @@ title: "Resources"
 
 ## Required Textbooks
 
-#### [Collaboration and Team Science: A Field Guide](/pdfs/TeamScienceFieldGuide.pdf){target="_blank"} ("Team Science Field Guide" in weekly readings)
+#### [Collaboration and Team Science: A Field Guide](https://brdo.berkeley.edu/sites/default/files/teamscience_fieldguide_reduced.pdf){target="_blank"} ("Team Science Field Guide" in weekly readings)
 
 #### Dare to Lead (hard copy provided to all students; "DtL" in weekly readings)
 
-#### [Dare to Lead Workbook](\pdfs\DTLWorkbook.pdf){target="_blank"} ("DtL Workbook" in weekly assignments)
+#### [Dare to Lead Workbook](run:\pdfs\DTLWorkbook.pdf){target="_blank"} ("DtL Workbook" in weekly assignments)
 
 ## Weekly Reading and Assignments
 
