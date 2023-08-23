@@ -4,14 +4,6 @@ title: "Resources"
 
 ## Required Textbooks
 
-#### [Collaboration and Team Science: A Field Guide](https://brdo.berkeley.edu/sites/default/files/teamscience_fieldguide_reduced.pdf){target="_blank"} ("Team Science Field Guide" in weekly readings)
-
-#### Dare to Lead (hard copy provided to all students; "DtL" in weekly readings)
-
-#### [Dare to Lead Workbook](run:\pdfs\DTLWorkbook.pdf){target="_blank"} ("DtL Workbook" in weekly assignments)
-
-## Weekly Reading and Assignments
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -26,6 +18,54 @@ if(length(new.packages)) install.packages(new.packages)
 ## And loading them
 for(i in package.list){library(i, character.only = T)}
 
+tibble(
+  title = c("<a href = 'pdfs/TeamScienceFieldGuide.pdf'>Collaboration and Team Science: A Field Guide</a>",
+            "Dare to Lead",
+            "<a href = 'pdfs/DTLWorkbook.pdf'>Dare to Lead Workbook</a>")
+) %>%
+  mutate(title = map(title, gt::html)) %>%
+  gt() %>%
+  tab_options(table.font.size = 30,
+              column_labels.hidden = TRUE,
+              table.align='left',
+              table.border.top.color='white',
+              table.border.bottom.color = 'white') %>%
+  cols_align(align = c("left"),
+  columns = everything()) %>%
+   tab_style(
+    style = cell_borders(
+      sides = c("top", "bottom"),
+      color = NULL,
+      weight = px(1.5),
+      style = "solid"
+    ),
+    locations = cells_body(
+      columns = everything(),
+      rows = everything()
+    )
+  )
+
+```
+
+```{r}
+#| include: false
+#| eval: false
+
+
+#### [Collaboration and Team Science: A Field Guide](https://brdo.berkeley.edu/sites/default/files/teamscience_fieldguide_reduced.pdf){target="_blank"} ("Team Science Field Guide" in weekly readings)
+
+#### Dare to Lead (hard copy provided to all students; "DtL" in weekly readings)
+
+#### [Dare to Lead Workbook](\pdfs\DTLWorkbook.pdf){target="_blank"} ("DtL Workbook" in weekly assignments)
+```
+
+## Weekly Reading and Assignments
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
 
 tibble(
   Week = c("1", "",
