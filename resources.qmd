@@ -13,7 +13,7 @@ package.list <- c('gt', 'tidyverse')
 
 ## Installing them if they aren't already on the computer
 new.packages <- package.list[!(package.list %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
+if(length(new.packages)) install.packages(new.packages, repos = "http://cran.us.r-project.org")
 
 ## And loading them
 for(i in package.list){library(i, character.only = T)}
@@ -62,7 +62,6 @@ tibble(
 
 ## Weekly Reading and Assignments
 
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -71,22 +70,32 @@ tibble(
 tibble(
   Week = c("1", "",
            "2", "",
-           "3", ""),
+           "3", "",
+           "4", "",
+           "5", ""),
   Day = c("8/29", "8/31",
           "9/5", "9/7",
-          "9/12", "9/14"),
+          "9/12", "9/14",
+          '9/19', '9/21',
+          '9/26', '9/28'),
   Reading = c("<a href = '/pdfs/CheruvelilSoranno2018.pdf'>Cheruvelil & Soranno 2018</a>_DtL: Intro and Part 1, Section 1_(pages 1-43)",
               "",
               "Team Science Field Guide: pages iii-3_ <a href = '/pdfs/Cheruvelil2014.pdf'>Cheruvelil et al. 2014</a>",
               "",
               "DtL: Part 1, Sections 2-3_(pages 44-177)",
-              "Team Science Field Guide: pages 5-19"),
+              "Team Science Field Guide: pages 5-19",
+              "Team Science Field Guide: pages 25-34",
+              "Team Science Field Guide: pages 21-24; 39-44",
+              "Team Science Field Guide: pages 45-50",
+              '<a href = "https://www.nature.com/articles/d41586-021-01635-2">Communities, COVID, and credit: the state of science collaborations</a>'),
   Assignment = c("DtL Workbook:_Section 1, Exercise 1_Section 1, Exercise 2", 
                  "Elevator Pitch",
                  "",
                  "True Colors Assessment",
                  'DtL Workbook:_Section 2, Exercise 1_Section 2, Exercise 4',
-                 '<a href = "https://docs.google.com/forms/d/e/1FAIpQLScY8EtcrPqe0WgVPFOl-ONgyIhULFC9VaxqiGiAmjhNvtzaXA/viewform">Myers Briggs Assessment</a>')
+                 '<a href = "https://docs.google.com/forms/d/e/1FAIpQLScY8EtcrPqe0WgVPFOl-ONgyIhULFC9VaxqiGiAmjhNvtzaXA/viewform">Myers Briggs Assessment</a>', 
+                 "", "Team vision statements",
+                 "", "")
 ) %>%
   mutate(Reading = str_replace_all(Reading, "_", "<br>"),
          Assignment = str_replace_all(Assignment, "_", "<br>")) %>% 
