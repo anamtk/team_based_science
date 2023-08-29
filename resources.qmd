@@ -20,7 +20,7 @@ for(i in package.list){library(i, character.only = T)}
 
 tibble(
   title = c("<a href = 'pdfs/TeamScienceFieldGuide.pdf'>Collaboration and Team Science: A Field Guide</a>",
-            "Dare to Lead",
+            '<a href = "https://brenebrown.com/book/dare-to-lead/">Dare to Lead</a>',
             "<a href = 'pdfs/DTLWorkbook.pdf'>Dare to Lead Workbook</a>")
 ) %>%
   mutate(title = map(title, gt::html)) %>%
@@ -78,7 +78,7 @@ tibble(
           "9/12", "9/14",
           '9/19', '9/21',
           '9/26', '9/28'),
-  Reading = c("<a href = '/pdfs/CheruvelilSoranno2018.pdf'>Cheruvelil & Soranno 2018</a>_DtL: Intro and Part 1, Section 1_(pages 1-43)",
+  Reading = c("<a href = '/pdfs/CheruvelilSoranno2018.pdf'>Cheruvelil & Soranno 2018</a>_<a href = '/pdfs/DtLIntrop1s1.pdf'>DtL: Intro and Part 1, Section 1_(pages 1-43)</a>",
               "",
               "Team Science Field Guide: pages iii-3_ <a href = '/pdfs/Cheruvelil2014.pdf'>Cheruvelil et al. 2014</a>",
               "",
