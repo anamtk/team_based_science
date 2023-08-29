@@ -89,7 +89,7 @@ tibble(
               "Team Science Field Guide: pages 45-50",
               '<a href = "https://www.nature.com/articles/d41586-021-01635-2">Communities, COVID, and credit: the state of science collaborations</a>'),
   Assignment = c("DtL Workbook:_Section 1, Exercise 1_Section 1, Exercise 2", 
-                 "Elevator Pitch",
+                 "<a href = '/pdfs/ElevatorPitches.pdf'>Elevator Pitch</a>",
                  "",
                  "True Colors Assessment",
                  'DtL Workbook:_Section 2, Exercise 1_Section 2, Exercise 4',
