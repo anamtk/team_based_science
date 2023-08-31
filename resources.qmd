@@ -62,6 +62,8 @@ tibble(
 
 ## Weekly Reading and Assignments
 
+Readings and assignments are provided in this schedule on the day they're **assigned**. Unless otherwise noted, reading should be done and assignments completed by the following class period.
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -90,7 +92,7 @@ tibble(
               '<a href = "https://www.nature.com/articles/d41586-021-01635-2">Communities, COVID, and credit: the state of science collaborations</a>'),
   Assignment = c("DtL Workbook:_Section 1, Exercise 1_Section 1, Exercise 2", 
                  "<a href = '/pdfs/ElevatorPitches.pdf'>Elevator Pitch</a>",
-                 "",
+                 "<a href = 'https://docs.google.com/forms/d/e/1FAIpQLSenhpqyKnW2N0Ih3NeVyc0AkxIy6o9iVXv8Cdw3UVnOIAOEqg/viewform'>Cheruvelil Reading Questions</a>",
                  "True Colors Assessment",
                  'DtL Workbook:_Section 2, Exercise 1_Section 2, Exercise 4',
                  '<a href = "https://docs.google.com/forms/d/e/1FAIpQLScY8EtcrPqe0WgVPFOl-ONgyIhULFC9VaxqiGiAmjhNvtzaXA/viewform">Myers Briggs Assessment</a>', 
