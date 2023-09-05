@@ -80,27 +80,27 @@ tibble(
           "9/12", "9/14",
           '9/19', '9/21',
           '9/26', '9/28'),
-  Reading = c("<a href = '/pdfs/CheruvelilSoranno2018.pdf'>Cheruvelil & Soranno 2018</a>_<a href = '/pdfs/DtLIntrop1s1.pdf'>DtL: Intro and Part 1, Section 1_(pages 1-43)</a>",
+  Reading = c("<a href = '/pdfs/CheruvelilSoranno2018.pdf'>Cheruvelil & Soranno 2018</a>_n<a href = '/pdfs/DtLIntrop1s1.pdf'>DtL: Intro and Part 1, Section 1_n(pages 1-43)</a>",
               "",
-              "Team Science Field Guide: pages iii-3_ <a href = '/pdfs/Cheruvelil2014.pdf'>Cheruvelil et al. 2014</a>",
+              "Team Science Field Guide: pages iii-3_n <a href = '/pdfs/Cheruvelil2014.pdf'>Cheruvelil et al. 2014</a>",
               "",
-              "DtL: Part 1, Sections 2-3_(pages 44-177)",
+              "DtL: Part 1, Sections 2-3_n(pages 44-177)",
               "Team Science Field Guide: pages 5-19",
               "Team Science Field Guide: pages 25-34",
-              "Team Science Field Guide: pages 21-24; 39-44",
+              "Team Science Field Guide: pages 21-24_n 39-44",
               "Team Science Field Guide: pages 45-50",
               '<a href = "https://www.nature.com/articles/d41586-021-01635-2">Communities, COVID, and credit: the state of science collaborations</a>'),
-  Assignment = c("DtL Workbook:_Section 1, Exercise 1_Section 1, Exercise 2", 
+  Assignment = c("DtL Workbook:_nSection 1, Exercise 1_nSection 1, Exercise 2", 
                  "<a href = '/pdfs/ElevatorPitches.pdf'>Elevator Pitch</a>",
                  "<a href = 'https://docs.google.com/forms/d/e/1FAIpQLSenhpqyKnW2N0Ih3NeVyc0AkxIy6o9iVXv8Cdw3UVnOIAOEqg/viewform'>Cheruvelil Reading Questions</a>",
-                 "True Colors Assessment",
-                 'DtL Workbook:_Section 2, Exercise 1_Section 2, Exercise 4',
+                 "<a href = 'https://docs.google.com/spreadsheets/d/1x8N-3SaOOTeJA0_wY6xXIQEvsbxuRZ944wIiiJbp3-0/edit#gid=259107515'>True Colors Assessment</a>",
+                 'DtL Workbook:_nSection 2, Exercise 1_nSection 2, Exercise 4',
                  '<a href = "https://docs.google.com/forms/d/e/1FAIpQLScY8EtcrPqe0WgVPFOl-ONgyIhULFC9VaxqiGiAmjhNvtzaXA/viewform">Myers Briggs Assessment</a>', 
                  "", "Team vision statements",
                  "", "")
 ) %>%
-  mutate(Reading = str_replace_all(Reading, "_", "<br>"),
-         Assignment = str_replace_all(Assignment, "_", "<br>")) %>% 
+  mutate(Reading = str_replace_all(Reading, "_n", "<br>"),
+         Assignment = str_replace_all(Assignment, "_n", "<br>")) %>% 
   mutate(Reading = map(Reading, gt::html),
          Assignment = map(Assignment, gt::html)) %>%
   gt() %>%
