@@ -105,7 +105,7 @@ tibble(
                  "<a href = 'https://docs.google.com/forms/d/e/1FAIpQLSd0svPcJ1vvDBEjCZn-5G_21RWT2Pn_uvzEe2sBdV78J7l3Qw/viewform'>Effective Meetings Mini-Project</a>", 
                  "",
                  "", 
-                 "DtL Workbook:_nSection 4,_nExercises 1,4,5,&6_n Section 5, Exercises 1&2")
+                 "<a href = 'https://canvas.nau.edu/courses/11749/assignments/284630'>DtL Workbook:_nSection 4,_nExercises 1,4,5,&6_n Section 5, Exercises 1&2</a>")
 ) %>%
   mutate(Reading = str_replace_all(Reading, "_n", "<br>"),
          Assignment = str_replace_all(Assignment, "_n", "<br>")) %>% 
