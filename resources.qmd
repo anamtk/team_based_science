@@ -91,7 +91,7 @@ tibble(
               "Team Science Field Guide: pages 25-34",
               "Team Science Field Guide: pages 21-24_n 39-44",
               "Team Science Field Guide: pages 45-50",
-              "<a href = 'https://www.nature.com/articles/d41586-021-01573-z'>We need to talk</a>",
+              "<a href = 'https://www.nature.com/articles/d41586-021-01573-z'>We need to talk</a>_n<a href = '/pdfs/Conflict_energy.pdf'>The seven levels of energy</a>",
               '<a href = "https://www.nature.com/articles/d41586-021-01635-2">Communities, COVID, and credit: the state of science collaborations</a>',
               'DtL: Part 1, Sections 4-5 & Part 2_n(pages 118-217)'),
   Assignment = c("DtL Workbook:_nSection 1, Exercise 1_nSection 1, Exercise 2", 
