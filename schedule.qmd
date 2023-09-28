@@ -5,14 +5,12 @@ schedule:
   pdf: "schedule.pdf"
 ---
 
-
 ```{r}
 #| echo: false
 
 #got info on embedding PDFs here:
 #https://github.com/andrewheiss/ath-quarto/blob/main/cv/index.qmd
 ```
-
 
 ```{css echo=FALSE}
 .embed-container {
@@ -45,4 +43,3 @@ schedule:
   <iframe src="`r rmarkdown::metadata$schedule$pdf`" style="border: 0.5px"></iframe>
 </div>
 ```
-
