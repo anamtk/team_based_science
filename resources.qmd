@@ -112,8 +112,8 @@ tibble(
                  "",
                  "", 
                  "<a href = 'https://canvas.nau.edu/courses/11749/assignments/284630'>DtL Workbook:_nSection 4,_nExercises 1,4,5,&6_n Section 5, Exercises 1&2</a>",
-                 '', '',
-                 '', 'Team Vision Statements/Collaborative Research Agreements')
+                 '', '<a href = "https://canvas.nau.edu/courses/11749/assignments/260814">Team Vision Statements/Collaborative Research Agreements (due 10/16)</a>',
+                 '<a href = "https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast">Tell me how you make toast TED Talk</a>', '')
 ) %>%
   mutate(Reading = str_replace_all(Reading, "_n", "<br>"),
          Assignment = str_replace_all(Assignment, "_n", "<br>")) %>% 
