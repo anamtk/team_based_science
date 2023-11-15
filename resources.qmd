@@ -128,7 +128,7 @@ tibble(
                  '', '',
                  '<a href = "https://docs.google.com/forms/d/e/1FAIpQLScc5Ls0YvbYVhlbVyX0QUYDQyNvzxy7UH_5agD2Q9jUvT8nwQ/viewform">Burnout Check-In</a>', '<a href = "https://canvas.nau.edu/courses/11749/assignments/302742">Available to Promise</a>',
                  '<a href = "https://docs.google.com/forms/d/e/1FAIpQLSfXVbVyUM5yajIY3FVtbKgeqmFL0XuXwF-c_N9ZC-K_xIL1hg/viewform">Group Presentation Mini-Project</a>', '',
-                 '<a href = "https://docs.google.com/document/d/1Lnpd2jAc2u4eGV5ku9J9RjgR4ROX7gpGrPPpy1eguJ8/edit?usp=sharing">Group Presentation of Proposal Plan</a>', '',
+                 '<a href = "https://docs.google.com/document/d/1Lnpd2jAc2u4eGV5ku9J9RjgR4ROX7gpGrPPpy1eguJ8/edit?usp=sharing">Group Presentation of Proposal Plan</a>', '<a href = "https://forms.gle/dN4zBvfRzYSZd5LB7">Peer Evaluation Form _n(due 11/23)</a>',
                  '', '<a href = "https://canvas.nau.edu/courses/11749/assignments/319843">Team Data Management Plan</a>')
 ) %>%
   mutate(Reading = str_replace_all(Reading, "_n", "<br>"),
